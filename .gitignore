@@ -1,0 +1,82 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!notebook/
+!notebook/cmidetection_from_py.ipynb
+
+# And not directories that contain the notebook
+!*/
+
+# But ignore everything in other directories
+kaggle/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Kaggle data and models
+kaggle/
+
+# Data files
+*.h5
+*.npy
+*.pkl
+*.parquet
+
+# Model files
+*.h5
+*.pth
+*.pkl
+
+# Python files
+*.py 
